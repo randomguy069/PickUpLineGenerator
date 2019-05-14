@@ -13,5 +13,10 @@ namespace ComplGen
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

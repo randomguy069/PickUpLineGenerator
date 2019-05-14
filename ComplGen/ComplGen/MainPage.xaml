@@ -4,11 +4,21 @@
              xmlns:local="clr-namespace:ComplGen"
              x:Class="ComplGen.MainPage">
 
-    <StackLayout>
+    <StackLayout
+        BackgroundColor="Black">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Compliment Generator" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand" 
+               TextColor="White"/>
+        <Button
+            Text="Give me a compliment"
+            VerticalOptions="Center"
+            TextColor="White"
+            BackgroundColor="Green"
+            Clicked="Button_Clicked"/>
+        
+        
     </StackLayout>
 
 </ContentPage>
